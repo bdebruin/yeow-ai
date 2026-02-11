@@ -1,0 +1,76 @@
+/* yeow-profile.css */
+
+:root{
+  --bg:#ffffff;
+  --text:#0f172a;
+  --muted:#64748b;
+  --line:#e2e8f0;
+  --soft:#f8fafc;
+  --blue:#2563eb;
+}
+
+*{ box-sizing:border-box; }
+
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.wrap{
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 40px 18px 80px;
+}
+
+h1{
+  font-size: 30px;
+  letter-spacing: -.6px;
+  margin: 10px 0 6px;
+}
+
+h2{
+  font-size: 18px;
+  margin: 24px 0 8px;
+}
+
+p{
+  line-height: 1.55;
+  margin: 8px 0;
+}
+
+.muted{
+  color: var(--muted);
+}
+
+.card{
+  margin-top: 16px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 16px;
+  background: #fff;
+}
+
+.pill{
+  display:inline-block;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: 800;
+  border-radius: 999px;
+  border:1px solid var(--line);
+  background: var(--soft);
+  color:#475569;
+}
+
+a{
+  color: var(--blue);
+  text-decoration: none;
+}
+a:hover{ text-decoration: underline; }
+
+footer{
+  margin-top: 40px;
+  font-size: 12px;
+  color: var(--muted);
+}
