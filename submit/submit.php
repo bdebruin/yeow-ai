@@ -18,7 +18,7 @@ error_reporting(E_ALL);
 
 
 
-require_once __DIR__ . '/../profile_lib.php'; // assuming write_placeholder_profile is here
+require_once __DIR__ . '/profile_lib.php'; // assuming write_placeholder_profile is here
 
 
 
@@ -218,3 +218,4 @@ try {
 
 
 }
+
